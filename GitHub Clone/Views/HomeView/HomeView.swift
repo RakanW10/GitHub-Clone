@@ -13,14 +13,14 @@ struct HomeView: View {
             CustomSectionView(title: "My Work",
                               rows: RowModel.HomeRows)
             EmptySectionView(title: "Favorites",
-                             text: "Add facorite repositories here to have quick access at any time, without having to search",
-                             buttonLable: "Add Favorites"
+                             text: "Add favorite repositories here to have quick access at any time, without having to search",
+                             buttonLabel: "Add Favorites"
             )
             
             CustomSectionWithIconsView(title: "Shortcuts",
                                        text: "The things you need, one tap away",
                                        subtext: "Fast access to uour lists of Issues, Pull Requests, or Discussions",
-                                       buttonLable: "Get Started"
+                                       buttonLabel: "Get Started"
             )
             
         }

@@ -11,7 +11,7 @@ struct CustomSectionWithIconsView: View {
     let title: String
     let text: String
     let subtext: String
-    let buttonLable: String
+    let buttonLabel: String
   
     
     var body: some View{
@@ -55,7 +55,7 @@ struct CustomSectionWithIconsView: View {
                     .font(.subheadline)
                 
                 Button(action: {}, label: {
-                    Text(buttonLable)
+                    Text(buttonLabel)
                         .bold()
                         .frame(maxWidth: .infinity,idealHeight: 40)
                         .background(

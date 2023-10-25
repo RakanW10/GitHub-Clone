@@ -10,7 +10,7 @@ import SwiftUI
 struct EmptySectionView: View {
     let title: String
     let text: String
-    let buttonLable: String
+    let buttonLabel: String
     var body: some View{
         VStack{
             // Header
@@ -31,7 +31,7 @@ struct EmptySectionView: View {
                     .multilineTextAlignment(.center)
             
                 Button(action: {}, label: {
-                    Text(buttonLable)
+                    Text(buttonLabel)
                         .bold()
                         .frame(maxWidth: .infinity,idealHeight: 40)
                         .background(
