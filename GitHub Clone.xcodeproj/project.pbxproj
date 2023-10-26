@@ -22,6 +22,7 @@
 		6852720F2AE8D3D20035D7F4 /* RowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6852720E2AE8D3D20035D7F4 /* RowModel.swift */; };
 		6883FAEE2AE92695004C3AFE /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6883FAED2AE92695004C3AFE /* ProfileView.swift */; };
 		6883FAF02AE92DAE004C3AFE /* ProfileCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6883FAEF2AE92DAE004C3AFE /* ProfileCardView.swift */; };
+		6883FAF32AEA24E1004C3AFE /* ProjectCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6883FAF22AEA24E1004C3AFE /* ProjectCardView.swift */; };
 		68CC47642AE8E731000B1D84 /* CircleIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CC47632AE8E731000B1D84 /* CircleIconView.swift */; };
 		68CC47672AE8E75C000B1D84 /* CircleIconModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CC47662AE8E75C000B1D84 /* CircleIconModel.swift */; };
 		68CC47692AE8E953000B1D84 /* CustomSectionWithIconsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CC47682AE8E953000B1D84 /* CustomSectionWithIconsView.swift */; };
@@ -44,6 +45,7 @@
 		6852720E2AE8D3D20035D7F4 /* RowModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowModel.swift; sourceTree = "<group>"; };
 		6883FAED2AE92695004C3AFE /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		6883FAEF2AE92DAE004C3AFE /* ProfileCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCardView.swift; sourceTree = "<group>"; };
+		6883FAF22AEA24E1004C3AFE /* ProjectCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCardView.swift; sourceTree = "<group>"; };
 		68CC47632AE8E731000B1D84 /* CircleIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleIconView.swift; sourceTree = "<group>"; };
 		68CC47662AE8E75C000B1D84 /* CircleIconModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleIconModel.swift; sourceTree = "<group>"; };
 		68CC47682AE8E953000B1D84 /* CustomSectionWithIconsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSectionWithIconsView.swift; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				6883FAEF2AE92DAE004C3AFE /* ProfileCardView.swift */,
+				6883FAF22AEA24E1004C3AFE /* ProjectCardView.swift */,
 			);
 			path = Componetes;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				6883FAEE2AE92695004C3AFE /* ProfileView.swift in Sources */,
 				685271E62AE7A8890035D7F4 /* GitHub_CloneApp.swift in Sources */,
 				685271F92AE831120035D7F4 /* RowView.swift in Sources */,
+				6883FAF32AEA24E1004C3AFE /* ProjectCardView.swift in Sources */,
 				685271FC2AE831310035D7F4 /* CustumSectionView.swift in Sources */,
 				68CC47692AE8E953000B1D84 /* CustomSectionWithIconsView.swift in Sources */,
 				68CC47672AE8E75C000B1D84 /* CircleIconModel.swift in Sources */,
