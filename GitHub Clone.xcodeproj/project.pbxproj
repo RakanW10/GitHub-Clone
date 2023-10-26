@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,6 +20,8 @@
 		685272072AE8D2360035D7F4 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685272062AE8D2360035D7F4 /* ExploreView.swift */; };
 		6852720B2AE8D2780035D7F4 /* NotificationCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6852720A2AE8D2780035D7F4 /* NotificationCardView.swift */; };
 		6852720F2AE8D3D20035D7F4 /* RowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6852720E2AE8D3D20035D7F4 /* RowModel.swift */; };
+		6883FAEE2AE92695004C3AFE /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6883FAED2AE92695004C3AFE /* ProfileView.swift */; };
+		6883FAF02AE92DAE004C3AFE /* ProfileCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6883FAEF2AE92DAE004C3AFE /* ProfileCardView.swift */; };
 		68CC47642AE8E731000B1D84 /* CircleIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CC47632AE8E731000B1D84 /* CircleIconView.swift */; };
 		68CC47672AE8E75C000B1D84 /* CircleIconModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CC47662AE8E75C000B1D84 /* CircleIconModel.swift */; };
 		68CC47692AE8E953000B1D84 /* CustomSectionWithIconsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CC47682AE8E953000B1D84 /* CustomSectionWithIconsView.swift */; };
@@ -40,6 +42,8 @@
 		685272062AE8D2360035D7F4 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		6852720A2AE8D2780035D7F4 /* NotificationCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCardView.swift; sourceTree = "<group>"; };
 		6852720E2AE8D3D20035D7F4 /* RowModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowModel.swift; sourceTree = "<group>"; };
+		6883FAED2AE92695004C3AFE /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		6883FAEF2AE92DAE004C3AFE /* ProfileCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCardView.swift; sourceTree = "<group>"; };
 		68CC47632AE8E731000B1D84 /* CircleIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleIconView.swift; sourceTree = "<group>"; };
 		68CC47662AE8E75C000B1D84 /* CircleIconModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleIconModel.swift; sourceTree = "<group>"; };
 		68CC47682AE8E953000B1D84 /* CustomSectionWithIconsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSectionWithIconsView.swift; sourceTree = "<group>"; };
@@ -96,6 +100,7 @@
 		685271F32AE7D40F0035D7F4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				6883FAEB2AE9265C004C3AFE /* ProfileView */,
 				6852720C2AE8D33F0035D7F4 /* GlobalComponents */,
 				685272052AE8D2190035D7F4 /* ExploreView */,
 				685272022AE8CC6D0035D7F4 /* RootView */,
@@ -175,6 +180,23 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		6883FAEB2AE9265C004C3AFE /* ProfileView */ = {
+			isa = PBXGroup;
+			children = (
+				6883FAEC2AE92668004C3AFE /* Componetes */,
+				6883FAED2AE92695004C3AFE /* ProfileView.swift */,
+			);
+			path = ProfileView;
+			sourceTree = "<group>";
+		};
+		6883FAEC2AE92668004C3AFE /* Componetes */ = {
+			isa = PBXGroup;
+			children = (
+				6883FAEF2AE92DAE004C3AFE /* ProfileCardView.swift */,
+			);
+			path = Componetes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -211,7 +233,7 @@
 				};
 			};
 			buildConfigurationList = 685271DD2AE7A8890035D7F4 /* Build configuration list for PBXProject "GitHub Clone" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -252,6 +274,8 @@
 				685271FE2AE838FD0035D7F4 /* EmptySectionView.swift in Sources */,
 				68CC47642AE8E731000B1D84 /* CircleIconView.swift in Sources */,
 				6852720B2AE8D2780035D7F4 /* NotificationCardView.swift in Sources */,
+				6883FAF02AE92DAE004C3AFE /* ProfileCardView.swift in Sources */,
+				6883FAEE2AE92695004C3AFE /* ProfileView.swift in Sources */,
 				685271E62AE7A8890035D7F4 /* GitHub_CloneApp.swift in Sources */,
 				685271F92AE831120035D7F4 /* RowView.swift in Sources */,
 				685271FC2AE831310035D7F4 /* CustumSectionView.swift in Sources */,

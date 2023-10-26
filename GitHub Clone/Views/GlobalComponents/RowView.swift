@@ -23,6 +23,12 @@ struct RowView: View{
                 .padding(.trailing)
             Text(data.title)
                 .frame(maxWidth: .infinity,alignment: .leading)
+            if let number = data.trailingNumber{
+                Text("\(number)")
+                    .frame(maxWidth: .infinity,alignment: .trailing)
+                    .foregroundStyle(.gray)
+                    .padding(.trailing,8)
+            }
             
             Image(systemName: "chevron.right")
                 .resizable()
@@ -30,5 +36,11 @@ struct RowView: View{
                 .foregroundStyle(.gray)
         }//HStack
         .frame(height: 60)
+    }
+}
+
+struct RowView_Preview:PreviewProvider{
+    static var previews: some View{
+        RowView(data: RowModel.ProfileRows[0])
     }
 }

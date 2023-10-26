@@ -23,5 +23,13 @@ struct ExploreView: View {
 }
 
 extension RowModel{
-    
+    static let ExploreRows: [RowModel] = [
+        RowModel(title: "Trending Repositories",
+                 imageName: "flame",
+                 imageBackgroundColor: .purple),
+        
+        RowModel(title: "Awesome Lists",
+                 imageName: "face.smiling",
+                 imageBackgroundColor: .red),
+    ]
 }

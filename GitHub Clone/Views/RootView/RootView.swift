@@ -8,11 +8,14 @@
 import SwiftUI
 
 struct RootView: View {
+    @State private var path = [String]()
     var body: some View {
         TabView {
-            NavigationStack{
+            NavigationStack(path: $path){
+                
                 HomeView()
                     .navigationTitle("Home")
+                    
             }
             .tabItem {
                 Label(
@@ -55,10 +58,21 @@ struct RootView: View {
                 )
             }
             
+            NavigationStack{
+                ProfileView()
+            }
+            .tabItem {
+                Label(
+                    title: {
+                        Text("Profile")
+                    },
+                    icon: {
+                        Image(systemName: "person")
+                    }
+                )
+            }
+            
         }
     }
 }
 
-#Preview {
-    RootView()
-}

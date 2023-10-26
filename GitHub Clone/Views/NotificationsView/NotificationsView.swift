@@ -24,7 +24,3 @@ struct NotificationsView: View {
         )
     }
 }
-
-#Preview {
-    NotificationsView()
-}
